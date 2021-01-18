@@ -4,7 +4,7 @@ Given two data matrices $X\in \mathbb{R}^{n\times p}$ with $n$ samples and $p$ v
 More descriptions about these functions can be found in their annotation part.
 
 <p align="center"> 
-<img src="https://github.com/wenwenmin/wsPLS/blob/master/Fig0_wsPLS.png">
+<img src="https://github.com/wenwenmin/wsPLS/blob/main/Fig0_wsPLS.png">
 </p>
 
 ### R function of wsPLS
