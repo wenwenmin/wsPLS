@@ -10,14 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ### Weighted sparse PLS model
-Given two data matrices $X\in \mathbb{R}^{n\times p}$ with $n$ samples and $p$ variables and $Y \in \mathbb{R}^{n\times q}$ with $n$ samples and $q$ variables across a same set of samples, each of their columns has been standardized (\emph{i.e.}, mean is zero and variance is 1). We formulate weighted sparse PLS model with $\ell_{\infty}/\ell_0$, denoted as ($\ell_\infty$-wsPLS), where $\ell_{\infty}/\ell_0$ penalty is incorporated to select most important samples:
-\begin{equation}\label{equ-2}
-\begin{aligned}
-& \underset{{u},{v},{w}}{\text{maximize}} && u^TX^T \mbox{diag}(w) Yv \\
-& \text{subject to}  && \|u\|_0\leq k_u, \|v\|_0\leq k_v, \|u\| = \|v\| = 1,\\
-&  && \|w\|_0\leq k_w, \|w\|_\infty \leq 1, w_j\geq 0~\forall j
-\end{aligned}
-\end{equation}
+Given two data matrices $X\in \mathbb{R}^{n\times p}$ with $n$ samples and $p$ variables and $Y \in \mathbb{R}^{n\times q}$ with $n$ samples and $q$ variables across a same set of samples, each of their columns has been standardized (\emph{i.e.}, mean is zero and variance is 1). We formulate weighted sparse PLS model with $\ell_{\infty}/\ell_0$, denoted as ($\ell_\infty$-wsPLS), where $\ell_{\infty}/\ell_0$ penalty is incorporated to select most important samples.
 
 ### Weighted sparse PLS Algorithm
 Block-coordinate descent algorithm is a popular strategy to handle the above problem. Recently, a proximal alternating linearized minimization (PALM) algorithm (bo2014proximal) has been used to solve a class of non-convex and non-smooth problems. With similar notation, we develop a block-coordinate descent algorithm to solve the above problem.
