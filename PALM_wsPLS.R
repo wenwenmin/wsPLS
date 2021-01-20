@@ -90,7 +90,7 @@ PALM_update_w = function(z, w0, Lc, k){
     return(w) }
   z[z<0] = 0
   z[-order(z,decreasing=T)[1:k]] = 0
-  w = sign(z)
-  return(w) 
+  z = ifelse(z>1, 1, z)
+  return(z) 
 }
 # ----------------------------------------------------------------------------
