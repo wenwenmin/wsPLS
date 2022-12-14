@@ -11,14 +11,9 @@ To this end, we extend the $\ell_\infty/\ell_0$-wsPLS model and propose two mult
 We develop an efficient iterative algorithm for each multi-view wsPLS model and show its convergence property.
 As well as numerical and biomedical data experiments demonstrate the efficiency of the proposed methods.
 
-<p align="center"> 
-<img src="https://github.com/wenwenmin/wsPLS/blob/main/Figure_1_overview_wsPLS.png">
-</p>
-
-
-
 ### R code for $\ell_\infty/\ell_0$-wsPLS
-The first example explains how to use the $\ell_\infty/\ell_0$-wsPLS algorithm (please see https://github.com/wenwenmin/wsPLS/blob/main/Simulation1_wsPLS/Example1_simulation_for_wsPLS.R)
+The first example explains how to use the $\ell_\infty/\ell_0$-wsPLS algorithm, please see https://github.com/wenwenmin/wsPLS/blob/main/Simulation1_wsPLS/Example1_simulation_for_wsPLS.R
+
 Before running the script, please first set the path for "Example1_simulation_for_wsPLS.R",
 and then run the following R command in the Console. 
 
