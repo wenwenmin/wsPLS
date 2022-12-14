@@ -11,15 +11,15 @@ To this end, we extend the $\ell_\infty/\ell_0$-wsPLS model and propose two mult
 We develop an efficient iterative algorithm for each multi-view wsPLS model and show its convergence property.
 As well as numerical and biomedical data experiments demonstrate the efficiency of the proposed methods.
 
-More descriptions about wPLS can be seen in the file "README_R_markdown_file.Rmd"(https://github.com/wenwenmin/wsPLS/blob/main/README_R_markdown_file.Rmd).
-
 <p align="center"> 
 <img src="https://github.com/wenwenmin/wsPLS/blob/main/Figure_1_overview_wsPLS.png">
 </p>
 
+More descriptions about wPLS can be seen in the file "README_R_markdown_file.Rmd"(https://github.com/wenwenmin/wsPLS/blob/main/README_R_markdown_file.Rmd).
+
 ### R function of wsPLS
 ```{r cars}
-PALM_wsPLS = function(X, Y, ku, kv, kw, Lc=0.1, niter=100, err=10^(-5), nstart=5, seed0=1){
+wsPLS = function(X, Y, ku, kv, kw, Lc=0.1, niter=100, err=10^(-5), nstart=5, seed0=1){
   # ----------------------------------------------------------------------------
   # Input
   # X \in R^{n \times p} (n:samples, p:variables)
