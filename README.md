@@ -19,6 +19,7 @@ As well as numerical and biomedical data experiments demonstrate the efficiency 
 
 ### R code for $\ell_\infty/\ell_0$-wsPLS
 The first example explains how to use the $\ell_\infty/\ell_0$-wsPLS algorithm (See Simulation1_wsPLS/Example1_simulation_for_wsPLS.R). 
+https://github.com/wenwenmin/wsPLS/blob/main/Simulation1_wsPLS/Example1_simulation_for_wsPLS.R
 Before running the script, please first set the path for "Example1_simulation_for_wsPLS.R",
 and then run the following R command in the Console. 
 
