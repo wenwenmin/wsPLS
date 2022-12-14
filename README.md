@@ -16,6 +16,24 @@ As well as numerical and biomedical data experiments demonstrate the efficiency 
 </p>
 
 More descriptions about wPLS can be seen in the file "README_R_markdown_file.Rmd"(https://github.com/wenwenmin/wsPLS/blob/main/README_R_markdown_file.Rmd).
+### R code for $\ell_\infty/\ell_0$-wsPLS
+The first example explains how to use the $\ell_\infty/\ell_0$-wsPLS algorithm (See Simulation1_wsPLS/Example1_simulation_for_wsPLS.R). 
+Before running the script, please first set the path for "Example1_simulation_for_wsPLS.R",
+and then run the following R command in the Console. 
+
+``` r
+> source('Example1_simulation_for_wsPLS.R') 
+```
+
+### R code for mwsPLS
+The second example explains how to use the mwsPLS algorithm (See Simulation2_mwsPLS/Example2_simulation_for_mwsPLS.R). 
+Before running the script, please first set the path for "Example2_simulation_for_mwsPLS.R",
+and then run the following R command in the Console. 
+
+``` r
+> source('Example2_simulation_for_mwsPLS.R') 
+```
+
 
 ### R function of wsPLS
 ```{r cars}
