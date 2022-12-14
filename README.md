@@ -14,7 +14,7 @@ As well as numerical and biomedical data experiments demonstrate the efficiency 
 More descriptions about wPLS can be seen in the file "README_R_markdown_file.Rmd"(https://github.com/wenwenmin/wsPLS/blob/main/README_R_markdown_file.Rmd).
 
 <p align="center"> 
-<img src="https://github.com/wenwenmin/wsPLS/blob/main/Fig0_wsPLS.png">
+<img src="https://github.com/wenwenmin/wsPLS/blob/main/Figure_1_overview_wsPLS.png">
 </p>
 
 ### R function of wsPLS
