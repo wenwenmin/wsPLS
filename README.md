@@ -36,7 +36,7 @@ and then run the following R command in the Console.
 ```
 
 
-### R function of wsPLS
+### R function of $\ell_\infty/\ell_0$-wsPLS
 ```{r cars}
 wsPLS = function(X, Y, ku, kv, kw, Lc=0.1, niter=100, err=10^(-5), nstart=5, seed0=1){
   # ----------------------------------------------------------------------------
