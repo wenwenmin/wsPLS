@@ -3,7 +3,7 @@ Sparse Partial Least Squares (sPLS) is a common dimensionality reduction techniq
 which projects data samples from two views by seeking linear combinations with a small number of variables with the maximum variance.
 However, sPLS extracts the combinations between two data sets with all data samples so that it cannot detect latent subsets of samples.
 To extend the application of sPLS by identifying a specific subset of samples and remove outliers,
-we propose an $\ell_\infty/\ell_0$-norm constrained weighted sparse PLS ($\ell_\infty/\ell_0$ - wsPLS) method for joint sample and feature selection,
+we propose an $\ell_\infty/\ell_0$-norm constrained weighted sparse PLS ($\ell_\infty/\ell_0-wsPLS$ ) method for joint sample and feature selection,
 where the $\ell_\infty/\ell_0$-norm constrains are used to select a subset of samples.
 We prove that the $\ell_\infty/\ell_0$-norm constrains have the Kurdyka-\L{ojasiewicz}~property so that a globally convergent algorithm is developed to solve it.
 Moreover, multi-view data with a same set of samples can be available in various real problems.
